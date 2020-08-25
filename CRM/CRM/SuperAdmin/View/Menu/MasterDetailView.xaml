@@ -10,4 +10,6 @@
     <MasterDetailPage.Master>
         <local:MenuPage x:Name="masterPage"/>
     </MasterDetailPage.Master>
+    
+    
 </MasterDetailPage>

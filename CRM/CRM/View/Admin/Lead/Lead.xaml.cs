@@ -24,7 +24,8 @@ namespace CRM.View.Admin.Lead
 
         protected override bool OnBackButtonPressed()
         {
-            Device.BeginInvokeOnMainThread(async () => {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
                 var result = await DisplayAlert("", "Do you want to exist?", "Yes", "No");
                 if (result)
                     DependencyService.Get<IAppClosed>().CloseApp();

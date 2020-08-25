@@ -49,6 +49,7 @@ namespace CRM
 
         public App()
         {
+
             if (DependencyService.Get<IFileService>().checkExists())
             {
                 var userRole = Settings.CRM_UserRole; //SecureStorage.GetAsync(AppConstant.UserRole);

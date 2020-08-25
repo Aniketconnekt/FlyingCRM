@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="CRM.MainPage">
 
-    <Button Text="Send" Clicked="Button_Clicked"/>
+    <!--<Button Text="Send" Clicked="Button_Clicked"/>-->
 
 </ContentPage>
